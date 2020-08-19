@@ -1,0 +1,10 @@
+echo "Enter the first number"
+read n1
+echo "Enter secound number"
+read n2
+if [ $n1 -eq  $n2 ]
+then
+echo " Number is equal"
+else
+echo "Number is not equal"
+fi
